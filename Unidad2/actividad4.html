@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel de consulta - Coquito Amarillo S.A.S.</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 650px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #f8fafc;
+      color: #0f172a;
+    }
+
+    h1 {
+      color: #2563eb;
+    }
+
+    input, button {
+      padding: 10px;
+      margin: 5px 0;
+    }
+
+    button {
+      background-color: #2563eb;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    #resultado {
+      margin-top: 15px;
+      padding: 12px;
+      background-color: white;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Panel de consulta de productos</h1>
+  <p>Coquito Amarillo S.A.S.</p>
+
+  <label for="idProducto">Ingresa el ID del producto:</label>
+  <input type="number" id="idProducto" min="1" placeholder="Ejemplo: 1">
+
+  <button id="btnConsultar">Consultar producto</button>
+
+  <p id="resultado">El resultado aparecerá aquí.</p>
+
+  <script src="actividad4.js"></script>
+</body>
+</html>
